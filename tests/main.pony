@@ -1,4 +1,4 @@
-iuse "pony_test"
+use "../stdlibx/pony_testx"
 
 use "../stdlibx"
 
@@ -8,5 +8,5 @@ actor Main is TestList
 
   new make() => None
 
-  fun tag tests(tests: PonyTest) =>
-    ArtTreeTests.tests(tests)
+  fun tag tests(test: PonyTest) =>
+    ArtTreeTests.tests(test)

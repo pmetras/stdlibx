@@ -1,9 +1,9 @@
 // Tests for ArtTree (Adaptive Radix Tree).
 
-use "pony_test"
+use "../stdlibx/pony_testx"
 use "collections"
 
-use "../stdlib/collections"
+use "../stdlibx/collectionsx"
 
 
 primitive ArtTreeTests
